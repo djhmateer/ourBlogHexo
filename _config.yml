@@ -74,5 +74,6 @@ feed:
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
-deploy:
-  type:
+deploy: 
+  type: git
+  repo: ssh://git@github.com:djhmateer/djhmateer.github.io
