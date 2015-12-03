@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://localhost:4000
 root: /
 permalink: :year/:month/:title/
 permalink_defaults:
@@ -64,6 +64,13 @@ pagination_dir: page
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
 theme: landscape
+
+disqus_shortname: refactoringcsharp
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
